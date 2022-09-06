@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html{
+   font-size: 92.5%;
+}
+
+body{
+   background-color:rgba(233, 235, 239, 0.973);
+   background-repeat:repeat;
+   background-attachment:fixed;
+}
+
+.container{
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 1fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas:"header header header header header header header header"
+   "main main main main main main main main"
+   "section section section section section section section section"
+   ". section-dos section-dos section-dos section-dos section-dos section-dos ."
+   ". section-tres section-tres section-tres section-tres section-tres section-tres ."
+   "section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro"
+   "section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco"
+   "footer footer footer footer footer footer footer footer ";
+}
+
+header{
+   grid-area: header;
+   background-color:rgba(135, 172, 235);
+}
+
+main{
+   grid-area: main;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+section{
+   grid-area: section;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+.section-dos{
+   grid-area: section-dos;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+.section-tres{
+   grid-area: section-tres;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+.section-cuatro{
+   grid-area: section-cuatro;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+.section-cinco{
+   grid-area: section-cinco;
+   background-color: rgba(233, 235, 239, 0.973);
+}
+
+
+footer{
+   grid-area: footer;
+   background-color: orange;
+}
+.encabezado__img--fluid{
+   width: 100%;
+}
+
+ul {
+   list-style: none;
+   background-color: rgb(135, 172, 235);
+   font-size: 0;
+   padding: 10px;
+ }
+
+li {
+   display: inline-block;
+   width: 19%;
+   position:relative;
+   font-size: large;
+}
+
+ul ul {
+      position: absolute;
+      display: none;
+   }
+
+   ul ul li {
+       display: block;
+      }
+
+   ul li:hover ul {
+         display:block;
+      }
+
+a{
+   color: rgba(6, 3, 46, 0.397);
+   text-decoration: none;
+   font-size: large;
+}
+
+a:hover{
+   color: black;
+}
+
+    .carrusel__img--fluid{
+      width: 100%;
+   }
+
+   #pagos .medios{
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      background-color:rgba(233, 235, 239, 0.973);
+   }
+   
+   #pagos .medios figure{
+      text-align: center;
+      width:25%;
+   }
+   
+   #pagos .medios figure img{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 20%;
+   }
+   #pagos .medios figure figcaption{
+      font-size:larger;
+      color: rgb(0, 0, 0);
+      padding: 15px 0;
+   }
+
+   .textCenter{
+      text-align: center;
+   }
+
+   .titulo__rifas{
+      margin-top: 20px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: xx-large;
+      background-color: white;
+   }
+   
+   .section-dos .destacadas{
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      background-color:white;
+   }
+
+   .destacadas{
+      padding: 30px;
+   }
+   
+   .section-dos .destacadas figure{
+      text-align: center;
+      width:25%;
+   }
+   
+   .section-dos .destacadas figure img{
+      border-left: 10px;
+      border-right: 10px;
+      width: 100%;
+   }
+   .section-dos .destacadas figure figcaption{
+      font-family: 'Times New Roman', Times, serif;
+      font-size:larger;
+      color: rgb(0, 0, 0);
+      padding: 15px 0;
+   }
+   .section-dos .destacadas p.date{
+      color: #000000;
+      padding-bottom: 10px;
+      background-color: white;
+   }
+   
+   .section-tres .beneficio{
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      background-color:white;
+   }
+
+   .beneficio{
+      padding: 20px;
+   }
+   
+   .section-tres .beneficio figure{
+      text-align: center;
+      width:25%;
+   }
+   
+   .section-tres .beneficio figure img{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+   }
+   
+   .section-cuatro .descripcion{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: auto;
+      background-color:white;
+   }
+   
+   .section-cuatro .descripcion figcaption{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: xx-large;
+      color: rgb(0, 0, 0);
+      padding: 15px 0;
+      align-self: center;
+   }
+   
+   .section-cuatro .descripcion p.benefit{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: larger;
+      color: #000000;
+      padding-bottom: 10px;
+      background-color: white;
+      align-self: center;
+   }
+   
+   .section-cinco .reseña{
+      margin: 40px;
+      display: flex;
+      justify-content: space-between;
+      background-color:white;
+   }
+   
+   .section-cinco .reseña figure{
+      text-align: center;
+      width:25%;
+   }
+   
+   .section-cinco .reseña figure img{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+   }
+
+   .principal__img--fluid{
+      width: auto;
+      text-align: center;
+      margin-left: 370px;
+   }
+
+
+#rifas .galeria{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+	#rifas .galeria figure{
+		text-align: center;
+		width:25%;
+	}
+
+		#rifas .galeria figure img{
+			width: 100%;
+		}
+
+		#rifas .galeria figure figcaption{
+			font-size: 2.5rem;
+			color: #4d48eb ;
+			padding: 30px 20px;
+		}
+
+   .principal__titulo--xl{
+      height:50%;
+      color: rgba(216, 216, 242, 0.727);
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: normal;
+   }
+   .textRight{
+      text-align: right;
+   }
+
+   .pasos{
+      width:1024px;
+      height:auto;
+      position:relative;
+      margin:auto;
+   }
+   .pasos__articulo--rif{
+      width: 335px;
+      height: auto;
+      position:relative;
+      display:inline-block;
+      vertical-align:top;
+      overflow:hidden;
+   }
+   .pasos__img--xl{
+      width: 35px;
+      height:auto;
+      position: relative;
+      display: inline;
+   }
+   .pasos__titulo--xl{
+      width:100%;
+      height: auto;
+      position: relative;
+      display: inline;
+      color: rgba(198, 231, 240, 0.648);
+      text-align: center;
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+   }
+
+   .pasos__img--xxl{
+      width: 45px;
+      height:auto;
+      position: relative;
+      display: inline;
+   }
+   .pasos__titulo--xxl{
+      width:100%;
+      height: auto;
+      position: relative;
+      display: inline;
+      color: rgba(198, 231, 240, 0.648);
+      text-align: center;
+      font-size:large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+   }
+
+   .pasos__img--xxxl{
+      width: 45px;
+      height:auto;
+      position:relative;
+      display:inline;
+
+   }
+
+   .pasos__titulo--xxxl{
+      width:100%;
+      height: auto;
+      position: relative;
+      display: inline;
+      color: rgba(198, 231, 240, 0.648);
+      text-align: center;
+      font-size:large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+   }
+
+   .pasos__titulo--md{
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgba(198, 231, 240, 0.648);
+   }
+
+   .destacados__nosotros--md{
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgba(198, 231, 240, 0.648);   
+   }
+
+    .pie{
+      text-align: center;
+      padding: 6px 20px;
+   }
+   
+   .pie__icon--sm{
+      width: 35px;
+   }
+   
+   .pie__titulo--md{
+      font-size: 3.5rem;
+   }
