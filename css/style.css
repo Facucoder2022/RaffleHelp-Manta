@@ -15,61 +15,6 @@ body{
    background-attachment:fixed;
 }
 
-.container{
-   height: 100vh;
-   display: grid;
-   grid-template-columns: 1fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-areas:"header header header header header header header header"
-   "main main main main main main main main"
-   "section section section section section section section section"
-   ". section-dos section-dos section-dos section-dos section-dos section-dos ."
-   ". section-tres section-tres section-tres section-tres section-tres section-tres ."
-   "section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro section-cuatro"
-   "section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco section-cinco"
-   "footer footer footer footer footer footer footer footer ";
-}
-
-header{
-   grid-area: header;
-   background-color:rgba(135, 172, 235);
-}
-
-main{
-   grid-area: main;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-section{
-   grid-area: section;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-.section-dos{
-   grid-area: section-dos;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-.section-tres{
-   grid-area: section-tres;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-.section-cuatro{
-   grid-area: section-cuatro;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-.section-cinco{
-   grid-area: section-cinco;
-   background-color: rgba(233, 235, 239, 0.973);
-}
-
-
-footer{
-   grid-area: footer;
-   background-color: orange;
-}
 .encabezado__img--fluid{
    width: 100%;
 }
@@ -115,17 +60,14 @@ a:hover{
       width: 100%;
    }
 
-   #pagos .medios{
+   .pagos .medios{
       margin-top: 40px;
       display: flex;
       justify-content: space-between;
+      text-align: center;
       background-color:rgba(233, 235, 239, 0.973);
    }
    
-   #pagos .medios figure{
-      text-align: center;
-      width:25%;
-   }
    
    #pagos .medios figure img{
       border-top-left-radius: 10px;
@@ -257,21 +199,21 @@ a:hover{
    }
 
 
-#rifas .galeria{
+.rifas .galeria{
 	margin: auto;
 	display: flex;
 	justify-content: center;
 }
-	#rifas .galeria figure{
+	.rifas .galeria figure{
 		text-align: center;
 		width:25%;
 	}
 
-		#rifas .galeria figure img{
+		.rifas .galeria figure img{
 			width: 100%;
 		}
 
-		#rifas .galeria figure figcaption{
+		.rifas .galeria figure figcaption{
 			font-size: 2.5rem;
 			color: #4d48eb ;
 			padding: 30px 20px;
@@ -371,6 +313,10 @@ a:hover{
       font-size: xx-large;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: rgba(198, 231, 240, 0.648);   
+   }
+
+   .bgOrange{
+      background-color: orange;
    }
 
     .pie{
