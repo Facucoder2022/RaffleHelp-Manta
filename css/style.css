@@ -200,23 +200,18 @@ a:hover{
 
 
 .rifas .galeria{
-	margin: auto;
+	margin-top: 25px;
 	display: flex;
 	justify-content: center;
 }
-	.rifas .galeria figure{
-		text-align: center;
-		width:25%;
-	}
 
 		.rifas .galeria figure img{
 			width: 100%;
 		}
 
-		.rifas .galeria figure figcaption{
-			font-size: 2.5rem;
+		.rifas .galeria div h5{
+			font-size: 2rem;
 			color: #4d48eb ;
-			padding: 30px 20px;
 		}
 
    .principal__titulo--xl{
