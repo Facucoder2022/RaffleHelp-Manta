@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    background-color: rgb(135, 172, 235);
+    font-size: 0;
+    padding: 10px;
+    li{
+        display: inline-block;
+        width: 19%;
+        position:relative;
+        font-size: large;
+        a{
+            color: rgba(6, 3, 46, 0.397);
+            text-decoration: none;
+            font-size: $textSm;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

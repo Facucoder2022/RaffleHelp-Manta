@@ -1,0 +1,104 @@
+.medios{
+    margin-top: 50px;
+    justify-content: space-between;
+ }
+
+
+ .participar{
+    margin-top: 20px;
+    margin-left: 100px;
+ }
+
+
+ .textCenter{
+    text-align: center;
+ }
+
+ .titulo__rifas{
+    margin-top: 25px;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $textLg;
+ }
+
+ .principal{
+    margin-top: 30px;
+    width: auto;
+    text-align: center;
+ }
+
+.rifas{
+ margin-top: 50px;
+ margin-left: 300px;
+}
+
+.card-title{
+ text-align: center;
+ font-size: $textMd;
+ color: rgb(12, 61, 238);
+}
+
+ .principal__titulo--xl{
+    margin-bottom: 50px;
+    height:50%;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+ }
+ .textRight{
+    text-align: right;
+ }
+
+ .pasos__img--xl{
+    width: 35px;
+    height:auto;
+    position: relative;
+    display: inline;
+ }
+
+
+ .pasos__img--xxl{
+    width: 45px;
+    height:auto;
+    position: relative;
+    display: inline;
+ }
+
+
+ .pasos__img--xxxl{
+    width: 45px;
+    height:auto;
+    position:relative;
+    display:inline;
+
+ }
+
+ .pasos__titulo--xxxl{
+    width:100%;
+    height: auto;
+    position: relative;
+    display: inline;
+    color: rgba(198, 231, 240, 0.648);
+    text-align: center;
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+ }
+
+ .pasos__titulo--md{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+ }
+
+ .destacados__nosotros--md{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(198, 231, 240, 0.648);   
+ }
