@@ -1,16 +1,21 @@
+.navbar{
+    background-color: rgb(32, 55, 95);
+}
+#botonera img{
+    width: 90px;
+    margin-right: 250px;
+}
+
 ul{
     list-style: none;
-    background-color: rgb(135, 172, 235);
-    font-size: 0;
+    background-color: rgb(32, 55, 95);
     padding: 10px;
     li{
         display: inline-block;
-        width: 19%;
         position:relative;
         font-size: large;
         a{
-            color: rgba(6, 3, 46, 0.397);
-            text-decoration: none;
+            color: rgb(147, 147, 23);
             font-size: $textSm;
             &:hover{
                 color: black;

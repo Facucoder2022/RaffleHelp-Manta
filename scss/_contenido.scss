@@ -15,10 +15,26 @@
  }
 
  .titulo__rifas{
-    margin-top: 25px;
+    margin-top: 75px;
+    margin-bottom: 15px;
     text-align: center;
     font-family: $mainFont;
     font-size: $textLg;
+ }
+
+ .novedades{
+   background-color: rgb(242, 248, 92);
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+
+ .titulo__novedades{
+   margin-top: auto;
+   margin-bottom: 25px;
+   padding-top: 30px;
+   text-align: center;
+   font-family: $mainFont;
+   font-size: $textLg;
  }
 
  .principal{
@@ -37,6 +53,11 @@
  font-size: $textMd;
  color: rgb(12, 61, 238);
 }
+
+.card-text{
+   margin-top: 15px;
+   text-align: center;
+ }
 
  .principal__titulo--xl{
     margin-bottom: 50px;
@@ -101,4 +122,24 @@
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(198, 231, 240, 0.648);   
+ }
+
+ .titulo-formulario{
+   margin-left: 120px;
+   margin-top: 50px;
+   font-family: $mainFont;
+   font-size: $textLg;
+
+ }
+ .aviso-formulario{
+   margin-left: 120px;
+ }
+
+ .boton-formulario{
+   margin-top: 25px;
+   background-color: orange;
+ }
+
+ .col iframe{
+   margin-bottom: 30px;
  }

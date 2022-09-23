@@ -14,21 +14,27 @@ body {
   background-attachment: fixed;
 }
 
+.navbar {
+  background-color: rgb(32, 55, 95);
+}
+
+#botonera img {
+  width: 90px;
+  margin-right: 250px;
+}
+
 ul {
   list-style: none;
-  background-color: rgb(135, 172, 235);
-  font-size: 0;
+  background-color: rgb(32, 55, 95);
   padding: 10px;
 }
 ul li {
   display: inline-block;
-  width: 19%;
   position: relative;
   font-size: large;
 }
 ul li a {
-  color: rgba(6, 3, 46, 0.397);
-  text-decoration: none;
+  color: rgb(147, 147, 23);
   font-size: 1.2em;
 }
 ul li a:hover {
@@ -50,7 +56,23 @@ ul li a:hover {
 }
 
 .titulo__rifas {
-  margin-top: 25px;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.9em;
+}
+
+.novedades {
+  background-color: rgb(242, 248, 92);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.titulo__novedades {
+  margin-top: auto;
+  margin-bottom: 25px;
+  padding-top: 30px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-size: 1.9em;
@@ -71,6 +93,11 @@ ul li a:hover {
   text-align: center;
   font-size: 1.5em;
   color: rgb(12, 61, 238);
+}
+
+.card-text {
+  margin-top: 15px;
+  text-align: center;
 }
 
 .principal__titulo--xl {
@@ -136,14 +163,34 @@ ul li a:hover {
   color: rgba(198, 231, 240, 0.648);
 }
 
+.titulo-formulario {
+  margin-left: 120px;
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.9em;
+}
+
+.aviso-formulario {
+  margin-left: 120px;
+}
+
+.boton-formulario {
+  margin-top: 25px;
+  background-color: orange;
+}
+
+.col iframe {
+  margin-bottom: 30px;
+}
+
 .bgOrange {
   background-color: orange;
 }
 
 .pie {
-  margin-top: 50px;
+  margin-top: auto;
   text-align: center;
-  padding: 6px 20px;
+  padding: 20px 6px 20px;
 }
 
 .pie__icon--sm {
