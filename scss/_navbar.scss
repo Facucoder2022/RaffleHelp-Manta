@@ -1,25 +1,68 @@
-.navbar{
-    background-color: rgb(32, 55, 95);
-}
-#botonera img{
-    width: 90px;
-    margin-right: 250px;
+header{
+    width: 100%;
+    background-color: rgba(0, 20, 84, 0.886);
+    
 }
 
-ul{
+#botonera {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonera img{
+    width: 90px;
+    margin-right: 290px;
+}
+
+#botonera ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#botonera ul li{
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    background-color: rgb(32, 55, 95);
-    padding: 10px;
-    li{
-        display: inline-block;
-        position:relative;
-        font-size: large;
-        a{
-            color: rgb(147, 147, 23);
-            font-size: $textSm;
-            &:hover{
-                color: black;
-            }
-        }
+    
+}
+
+    #botonera ul li a{
+        justify-content: center;
+        align-items: center;
+        font-size: $textSm;
+        font-family: $mainFont;
+        text-decoration: none;
+        color: #ffffff;
     }
+
+    /*hover*/
+    #botonera ol li a:hover{
+        color: black;
+        font-weight: 600;
+    }
+
+#botonera ul{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#botonera img{
+    width: 90px;
+}
+
+ul li{
+    justify-content: left;
+}
+
+.nav-link{
+    font-size: $textSm;
+    font-family: $mainFont;
+    color: white;
 }

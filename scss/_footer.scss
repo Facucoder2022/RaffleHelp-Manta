@@ -1,17 +1,17 @@
-.bgOrange{
-    background-color: orange;
- }
  
 .pie{
+   background-color:#6710f2;
     margin-top: auto;
     text-align: center;
     padding: 20px 6px 20px;
  }
  
  .pie__icon--sm{
-    width: 35px;
+    width: 80px;
  }
  
- .pie__titulo--md{
+ .pie_titulo--md{
+   margin-bottom: 20px;
     font-size: $textSm;
+    color: whitesmoke;
  }
