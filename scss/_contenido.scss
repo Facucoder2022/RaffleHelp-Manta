@@ -13,7 +13,7 @@
    margin-left: 60px;
    margin-right: 60px;
    background-color: white;
-   box-sizing: border-box;
+   box-shadow: 5px 5px rgb(219, 214, 214);
  }
 
 
@@ -76,13 +76,12 @@
  }
 
  .principal__titulo--xl{
-    margin-bottom: 50px;
-    height:50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
     color: black;
     text-align: center;
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
+    font-size: $textLg;
+    font-family: $mainFont
  }
  .textRight{
     text-align: right;
@@ -103,32 +102,34 @@
    background-color: white;
  }
 
+ .pasos_contenedor{
+   margin-left: 60px;
+   margin-right: 60px;
+ }
+
+ .pasos_contenedor-dos{
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-top: 50px;
+ }
+
  .pasos_img{
     width: 210px;
-    height:auto;
     margin-bottom: 30px;
  }
 
-
- .pasos__titulo--xxxl{
-    width:100%;
-    height: auto;
-    position: relative;
-    display: inline;
-    color: rgba(198, 231, 240, 0.648);
-    text-align: center;
-    font-size:large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
+ .destacadas{
+   margin-left: 60px;
+   margin-right: 60px;
  }
 
- .pasos__titulo--md{
+ .destacadas__titulo--xl{
     margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
     color: black;
+    text-align: center;
+    font-size: $textLg;
+    font-family: $mainFont
  }
 
  .destacados__nosotros--md{
@@ -138,19 +139,19 @@
     color: rgba(198, 231, 240, 0.648);   
  }
 
- .titulo-formulario{
-   margin-left: 120px;
+ .formulario-contenedor{
    margin-top: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+
+ .titulo-formulario{
    font-family: $mainFont;
    font-size: $textLg;
-
- }
- .aviso-formulario{
-   margin-left: 120px;
- }
+}
 
  .boton-formulario{
-   margin-top: 25px;
+   margin-top: 20px;
+   margin-bottom: 20px;
    color: whitesmoke;
    background-color: rgb(22, 8, 148);
  }

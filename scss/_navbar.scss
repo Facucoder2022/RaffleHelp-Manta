@@ -1,67 +1,45 @@
 header{
     width: 100%;
-    background-color: rgba(0, 20, 84, 0.886);
+    background-image: linear-gradient(to left, rgb(45, 3, 85), rgb(13, 13, 164), );
     
 }
 
-#botonera {
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#botonera img{
+	width: 90px;
 }
 
-#botonera img{
-    width: 90px;
-    margin-right: 290px;
+#botonera svg{
+	fill: rgb(0, 0, 0);
 }
 
 #botonera ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
 }
 
 #botonera ul li{
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    
+    float: right;
 }
+	#botonera ul li a{
+		color: black;
+	}
 
-    #botonera ul li a{
-        justify-content: center;
-        align-items: center;
-        font-size: $textSm;
-        font-family: $mainFont;
-        text-decoration: none;
-        color: #ffffff;
-    }
+		#botonera ul li a:hover{
+			color: rgb(67, 20, 255);
+		}
 
-    #botonera ol li a:hover{
-        color: black;
-        font-weight: 600;
-    }
-
-#botonera ul{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-right: 80px;
-}
-
-#botonera img{
-    width: 90px;
-}
-
-ul li{
-    justify-content: left;
-}
+		
+		#botonera ul li a:visited{
+			color: rgb(255, 255, 255);
+		}
+		
+		#botonera ul li a:active{
+			color: rgb(255, 255, 255);
+		}
 
 .nav-link{
-    font-size: $textSm;
+    font-size: $textMd;
     font-family: $mainFont;
     color: white;
 }

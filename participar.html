@@ -16,10 +16,10 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md" id="botonera">
+    <nav class="navbar navbar-expand-md navbar-light bg-violet sticky-top" id="botonera">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="imagenes/tituloo-rh.png" alt="">
+          <img src="imagenes/tituloo-rh.png" alt="" >
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <svg viewBox="0 0 100 80" width="40" height="40" >
@@ -29,7 +29,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="rifas.html">Rifas</a>
             </li>
@@ -50,12 +50,14 @@
       </div>
     </nav>
   </header>
-  
+
     <main class="principal">
         <h1 class="textCenter principal__titulo--xl">Como Funciona</h1>
     </main>
 
-    <div class="container text-center">
+    <section class="pasos_contenedor">
+
+      <div class="container text-center">
         <div class="row row-cols-3">
           <div class="col">
             <img src="imagenes/registrar.svg" alt="paso uno" class="textCenter pasos_img">
@@ -70,16 +72,21 @@
             <p>Se realiza el sorteo con escribano público presente, dando como ganador a un usuario. El vendedor del producto recibe su pago y el ganador su premio!</p>
           </div>
         </div>
-      </div>
+      </div>     
+    </section>
 
-      <div class="grid text-center">
-        <div class="g-col-6">
-            <h5 class="textCenter pasos__titulo--md">Quiero Participar</h5>
-        </div>
-        <div class="g-col-6">
+    <section class="pasos_contenedor-dos">
+      <h5 class="textCenter principal__titulo--xl">Quiero Participar</h5>
+
+      <div class="container text-center">
+          <div class="col align-self-center">
             <p><strong>RaffleHelp</strong> es una plataforma que conecta personas que quieren rifar un producto, con usuarios que están interesados en participar en una rifa con altas chances de ganar. LaRifamos se encarga de tramitar la rifa en Agencia de Loterías y Quinielas, para que el vendedor no tenga que moverse de su casa.</p>
+          </div>
         </div>
       </div>
+    </section>
+
+    
     <footer class="bgOrange pie">
         <h4 class="pie_titulo--md">Seguinos en Nuestras Redes Sociales</h4>
         <a href="https://www.instagram.com/" target="_blank">
