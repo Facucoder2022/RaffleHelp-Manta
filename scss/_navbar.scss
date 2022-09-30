@@ -22,24 +22,11 @@ header{
     float: right;
 }
 	#botonera ul li a{
-		color: black;
+		color: rgb(255, 255, 255);
+		font-size: $textMd;
+        font-family: $mainFont;
 	}
 
 		#botonera ul li a:hover{
 			color: rgb(67, 20, 255);
 		}
-
-		
-		#botonera ul li a:visited{
-			color: rgb(255, 255, 255);
-		}
-		
-		#botonera ul li a:active{
-			color: rgb(255, 255, 255);
-		}
-
-.nav-link{
-    font-size: $textMd;
-    font-family: $mainFont;
-    color: white;
-}

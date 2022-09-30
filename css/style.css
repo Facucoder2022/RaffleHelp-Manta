@@ -39,25 +39,13 @@ header {
 }
 
 #botonera ul li a {
-  color: black;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-family: "Comic Neue", cursive;
 }
 
 #botonera ul li a:hover {
   color: rgb(67, 20, 255);
-}
-
-#botonera ul li a:visited {
-  color: rgb(255, 255, 255);
-}
-
-#botonera ul li a:active {
-  color: rgb(255, 255, 255);
-}
-
-.nav-link {
-  font-size: 1.5em;
-  font-family: "Comic Neue", cursive;
-  color: white;
 }
 
 .medios {
