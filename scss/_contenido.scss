@@ -10,10 +10,15 @@
  }
 
  #pagos{
+   margin-top: 20px;
    margin-left: 60px;
    margin-right: 60px;
    background-color: white;
-   box-shadow: 5px 5px rgb(219, 214, 214);
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .pagos_img{
+  object-fit: scale-down
  }
 
 
@@ -66,6 +71,7 @@
 
 .card-title{
  text-align: center;
+ font-family: $mainFont;
  font-size: $textMd;
  color: rgb(52, 0, 173);
 }
@@ -73,6 +79,8 @@
 .card-text{
    margin-top: 15px;
    text-align: center;
+   font-family: $mainFont;
+   font-size: $textSm;
  }
 
  .principal__titulo--xl{
@@ -103,20 +111,20 @@
  }
 
  .pasos_contenedor{
-   margin-left: 60px;
-   margin-right: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+ }
+
+ .pasos_borde{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
  .pasos_contenedor-dos{
-   margin-left: 60px;
-   margin-right: 60px;
    margin-top: 50px;
+   margin-bottom: 50px;
  }
 
- .pasos_img{
-    width: 210px;
-    margin-bottom: 30px;
- }
 
  .destacadas{
    margin-left: 60px;
@@ -126,10 +134,18 @@
  .destacadas__titulo--xl{
     margin-top: 20px;
     margin-bottom: 10px;
-    color: black;
+    color: rgb(53, 2, 55);
     text-align: center;
     font-size: $textLg;
-    font-family: $mainFont
+    font-family: $mainFont;
+ }
+
+ .destacadas_descr{
+  font-family: $mainFont;
+  font-size: $textSm;
+ }
+ .img_empresa{
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 28px 0 rgba(0, 0, 0, 0.19);
  }
 
  .destacados__nosotros--md{
