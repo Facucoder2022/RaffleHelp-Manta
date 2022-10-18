@@ -249,3 +249,19 @@
     margin-top: 200px;
   }
 }
+
+.btn_error{
+  width: 100%; 
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#36cdff;
+  font-family: $mainFont;
+  font-size: $textMd;
+}
+
+@media (max-width: 992px) {
+  .btn_error{
+    width: 100%;
+    text-align: center;
+  }
+}
