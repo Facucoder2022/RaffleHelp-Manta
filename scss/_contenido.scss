@@ -29,6 +29,9 @@
  #rifas_contenedor{
    margin-left: 60px;
    margin-right: 60px;
+   background-color: white;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
  .titulo_rifas{
@@ -37,41 +40,60 @@
     text-align: center;
     font-family: $mainFont;
     font-size: $textLg;
-    background-color: rgb(52, 0, 173);
-    color: whitesmoke;
+    color: rgb(52, 0, 173);
+ }
+
+ .btn_rifas{
+  color: white;
+  background-color: rgb(45, 7, 159);
  }
 
  .novedades{
+   margin-top: 20px;
    margin-left: 60px;
    margin-right: 60px;
-   background-color:#0d6dfdcc;
-   margin-top: auto;
-   margin-bottom: auto;
+   background-color:white;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .ong_fotos{
+  margin-bottom: 25px;
+  object-fit: scale-down
+ }
+
+ .comentarios_contenedor{
+   margin-top: 20px;
+   margin-bottom: 25px;
+   margin-left: 60px;
+   margin-right: 60px;
+   background-color:white;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .img_comentarios{
+  margin-bottom: 30px;
  }
 
  .titulo_novedades{
-   margin-top: auto;
+   margin-top: 20px;
    margin-bottom: 25px;
    padding-top: 30px;
    text-align: center;
    font-family: $mainFont;
    font-size: $textLg;
+   color: rgb(52, 0, 173);
  }
 
- .principal{
-    margin-top: 30px;
-    width: auto;
-    text-align: center;
+ .contenedor_rifas{
+  margin-top: 20px;
+  margin-bottom: 20px;
  }
-
-.rifas{
- margin-top: 50px;
- margin-left: 300px;
-}
 
 .card-title{
  text-align: center;
- font-family: $mainFont;
+ font-family: $secondaryFont;
  font-size: $textMd;
  color: rgb(52, 0, 173);
 }
@@ -79,62 +101,74 @@
 .card-text{
    margin-top: 15px;
    text-align: center;
-   font-family: $mainFont;
+   font-family: $secondaryFont;
    font-size: $textSm;
  }
 
+ .principal{
+  margin-top: 30px;
+  width: auto;
+  text-align: center;
+}
+
  .principal__titulo--xl{
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 30px;
-    color: black;
     text-align: center;
     font-size: $textLg;
-    font-family: $mainFont
- }
- .textRight{
-    text-align: right;
- }
-
- #preguntas_contenedor{
-   margin-top: 50px;
-   margin-left: 60px;
-   margin-right: 60px;
-   background-color: rgba(0, 20, 84, 0.886);
-
- }
-
- .titulo_preguntas{
-   font-family: $mainFont;
-   font-size: $textLg;
-   margin-bottom: 10px;
-   background-color: white;
+    font-family: $mainFont;
+    color: rgb(52, 0, 173);
  }
 
  .pasos_contenedor{
   margin-left: 60px;
   margin-right: 60px;
-
  }
 
  .pasos_borde{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
- .pasos_contenedor-dos{
-   margin-top: 50px;
-   margin-bottom: 50px;
+ .texto_participar{
+    font-size: $textSm;
+    font-family: $mainFont;
+    margin-bottom: 50px;
  }
 
+
+ #preguntas_contenedor{
+   margin-top: 50px;
+   margin-left: 60px;
+   margin-right: 60px;
+   background-color: white;
+
+ }
+
+ .titulo_preguntas{
+   color: rgb(52, 0, 173);
+   font-family: $mainFont;
+   font-size: $textLg;
+   margin-bottom: 10px;
+ }
+
+ .accordion-header{
+  font-family: $mainFont;
+  font-size: $textSm;
+ }
 
  .destacadas{
    margin-left: 60px;
    margin-right: 60px;
+   background-color: white;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
  .destacadas__titulo--xl{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    color: rgb(53, 2, 55);
+    padding: 10px;
+    color: rgb(52, 0, 173);
     text-align: center;
     font-size: $textLg;
     font-family: $mainFont;
@@ -142,9 +176,14 @@
 
  .destacadas_descr{
   font-family: $mainFont;
-  font-size: $textSm;
+  font-size: $textXsm;
+  padding-bottom: 10px;
+
  }
+
  .img_empresa{
+  margin-top: 50px;
+  margin-bottom: 30px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 28px 0 rgba(0, 0, 0, 0.19);
  }
 
@@ -175,3 +214,14 @@
  .col iframe{
    margin-bottom: 30px;
  }
+
+ .img_error{
+  background-color: #36cdff;
+ }
+ @media (max-width: 992px) {
+  .img_error img {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+  }
+}

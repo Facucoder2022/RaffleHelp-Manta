@@ -8,7 +8,8 @@
     <meta name="description" content="Nos dedicamos a que el usuario publique sus productos obteniendo beneficios y a su vez un porcentaje de esa ayuda va destinado a diferentes ongs para ayudarlas en la causa">
     <meta name="author" content="Facundo Manta">
     <meta name="robots" content="index">
-    <link rel="shortcut icon" href="imagenes/Titulo Pagina.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>RaffleHelp</title>
@@ -19,7 +20,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-violet sticky-top" id="botonera">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="imagenes/tituloo-rh.png" alt="" >
+          <img src="imagenes/logo-pagina.png" alt="logo representativo de nuestra marca" >
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <svg viewBox="0 0 100 80" width="40" height="40" >
@@ -61,13 +62,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="imagenes/quiero-ayudar.jpg" class="img-fluid d-block w-100" alt="vos si le pones los alts a las imgs">
+                <img src="imagenes/carrusel-tres.jpg" class="img-fluid d-block w-100" alt="imagen que muestra que detras de todo lo pensado existe una historia increible la cual deberian de conocer">
               </div>
               <div class="carousel-item">
-                <img src="imagenes/rifas-sueño.png" class="img-fluid d-block w-100" alt="...">
+                <img src="imagenes/rifas-sueño.png" class="img-fluid d-block w-100" alt="demostracion a los usuarios de como podrian ganar importantes premios por un precio muy bajo">
               </div>
               <div class="carousel-item">
-                <img src="imagenes/quiero-ayudar.jpg" class="img-fluid d-block w-100" alt="...">
+                <img src="imagenes/quiero-ayudar.jpg" class="img-fluid d-block w-100" alt="imagen grafica de como nuestra plataforma busca la manera de que todos ganen y ayudar">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -82,24 +83,24 @@
         </main>
 
         <section id="pagos">
-          <div class="container text-center">
+          <div class="container-md text-center">
             <div class="row">
               <div class="col-md">
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
-                <img src="imagenes/efectivodos.svg" class="pagos_img" alt="">
+                <img src="imagenes/efectivo.svg" class="pagos_img" alt="modo de pago para los usuarios mediate dinero al contado">
                 <p>Efectivo en Redes de Cobranza</p>
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
               </div>
               
               <div class="col-md">
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
-                <img src="imagenes/bancodos.png" alt="">
+                <img src="imagenes/banco.svg" class="pagos_img" alt="modo de pago para los usuarios mediante transferencia bancaria">
                 <p>Transferencia Bancaria</p>
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
               </div>
               <div class="col-md">
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
-                <img src="imagenes/tarjetados.png" alt="">
+                <img src="imagenes/tarjeta.svg" class="pagos_img" alt="modo de pago para los usuarios con tarjeta de credito y debito">
                 <p>Tarjetas de Crédito y Débito</p>
                 <hr _ngcontent-serverapp-c117="" class="featurette-divider">
               </div>
@@ -110,73 +111,79 @@
 
         <section id="rifas_contenedor">
           <h1 class="textCenter titulo_rifas">Rifas Destacadas</h1>
+          <div class="container-md text-center">
           <div class="row py-3">
               <div class="card col-md-4">
-                <img src="imagenes/rifa-destacada1.svg" class="card-img-top" alt="...">
+                <img data-aos="zoom-in" data-aos-duration="2000" src="imagenes/rifa-destacada1.svg" class="card-img-top" alt="sorteo de un celular iphones y un smartwatch">
                 <div class="card-body">
                   <h5 class="card-title"><strong><u>iPhone 13 + Apple Watch</u></strong></h5>
                   <p class="card-text"><em>Participación $200</em></p>
-                  <a href="#" class="btn btn-primary w-100">Comprar</a>
+                  <a href="error.html" class="btn btn-primary w-100 btn_rifas">Comprar</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Sorteo: 12/12/2022</small>
                 </div>
               </div>
               <div class="card col-md-4">
-                <img src="imagenes/rifa-destacada2.svg" class="card-img-top" alt="...">
+                <img data-aos="zoom-in" data-aos-duration="2000" src="imagenes/rifa-destacada2.svg" class="card-img-top" alt="sorteo de un viaje para dos personas a punta cana para disfrutar con quien mas quieras">
                 <div class="card-body">
                 <h5 class="card-title"><strong><u>Viaje 2 personas a Punta Cana</u></strong></h5>
                 <p class="card-text"><em>Participación $250</em></p>
-                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                <a href="error.html" class="btn btn-primary w-100 btn_rifas">Comprar</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Sorteo: 12/12/2022</small>
                 </div>
               </div>
               <div class="card col-md-4">
-                <img src="imagenes/rifa-destacada3.svg" class="card-img-top" alt="...">
+                <img data-aos="zoom-in" data-aos-duration="2000" src="imagenes/rifa-destacada3.svg" class="card-img-top" alt="sorteo de televisores, electrodomesticos, muebles para el living, cocina, cuartos.">
                 <div class="card-body">
                   <h5 class="card-title"><strong><u>Conjunto Hogar</u></strong></h5>
                   <p class="card-text"><em>Participación $120</em></p>
-                  <a href="#" class="btn btn-primary w-100">Comprar</a>
+                  <a href="error.html" class="btn btn-primary w-100 btn_rifas">Comprar</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Sorteo: 12/12/2022</small>
                 </div>
               </div>
             </div>
+          </div>
         </section>
 
         <section class="novedades">
           <h2 class="textCenter titulo_novedades">ONGs Destacadas</h2>
+          <div class="container-md text-center">
           <div class="container text-center">
             <div class="row">
-              <div class="col">
-                <img src="imagenes/ong-otrasmanos.svg" alt="">
+              <div data-aos="zoom-out" data-aos-duration="2000" class="col">
+                <img src="imagenes/ong-otrasmanos.svg" class="ong_fotos" alt="ong que lleva a cabo distribuciones de alimentos, ropa y otros artículos de primera necesidad">
               </div>
-              <div class="col">
-                <img src="imagenes/ong-perezscremini.svg" alt="">
+              <div data-aos="zoom-out" data-aos-duration="2000" class="col">
+                <img src="imagenes/ong-perezscremini.svg" class="ong_fotos" alt="ong Pérez Scremini es la fundación que trabaja por la cura del cáncer infantil en Uruguay">
               </div>
-              <div class="col">
-                <img src="imagenes/ong-porlosniños.png" alt="">
+              <div data-aos="zoom-out" data-aos-duration="2000" class="col">
+                <img src="imagenes/ong-porlosniños.svg" class="ong_fotos" alt="ONG Por los niños Uruguayos es una organización sin fines de lucro que desarrolla Proyectos Educativos-Sociales en el barrio Acosta y Lara.">
               </div>
             </div>
+          </div>
         </section>
 
-        <section class="novedades">
+        <section class="comentarios_contenedor">
           <h3 class="textCenter titulo_novedades">Testimonio de Nuestra Comunidad</h3>
+          <div class="container-md text-center">
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <img src="imagenes/feedback.png" class="img-circle" alt="">
+                <img src="imagenes/comentario-n.jpg" class="img_comentarios" alt="comentario experiencia cliente">
               </div>
               <div class="col">
-                <img src="imagenes/feedback.png" class="img-circle" alt="">
+                <img src="imagenes/comentario-d.jpg" class="img_comentarios" alt="comentario experiencia cliente">
               </div>
               <div class="col">
-                <img src="imagenes/feedback.png" class="img-circle" alt="">
+                <img src="imagenes/cometario-m.jpg" class="img_comentarios" alt="comentario experiencia cliente">
               </div>
             </div>
+          </div>
         </section>
            
         <footer class=" pie">
@@ -194,6 +201,11 @@
               <img src="imagenes/youtube.svg" alt="Seguinos en youtube" class="pie__icon--sm">
           </a>
       </footer>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>
