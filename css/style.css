@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ header {
 }
 
 #botonera img {
-  width: 90px;
+  width: 250px;
 }
 
 #botonera svg {
@@ -40,8 +40,8 @@ header {
 
 #botonera ul li a {
   color: rgb(255, 255, 255);
-  font-size: 1.5em;
-  font-family: "Comic Neue", cursive;
+  font-size: 1.2em;
+  font-family: "Inter Tight", sans-serif;
 }
 
 #botonera ul li a:hover {
@@ -59,10 +59,17 @@ header {
 }
 
 #pagos {
+  margin-top: 20px;
   margin-left: 60px;
   margin-right: 60px;
   background-color: white;
-  box-shadow: 5px 5px rgb(219, 214, 214);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pagos_img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .textCenter {
@@ -72,33 +79,81 @@ header {
 #rifas_contenedor {
   margin-left: 60px;
   margin-right: 60px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .titulo_rifas {
   margin-top: 65px;
   margin-bottom: 15px;
   text-align: center;
-  font-family: "Comic Neue", cursive;
-  font-size: 2em;
-  background-color: rgb(52, 0, 173);
-  color: whitesmoke;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.3em;
+  color: rgb(52, 0, 173);
+}
+
+.btn_rifas {
+  color: white;
+  background-color: rgb(45, 7, 159);
 }
 
 .novedades {
+  margin-top: 20px;
   margin-left: 60px;
   margin-right: 60px;
-  background-color: rgba(13, 109, 253, 0.8);
-  margin-top: auto;
-  margin-bottom: auto;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ong_fotos {
+  margin-bottom: 25px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.comentarios_contenedor {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_comentarios {
+  margin-bottom: 30px;
 }
 
 .titulo_novedades {
-  margin-top: auto;
+  margin-top: 20px;
   margin-bottom: 25px;
   padding-top: 30px;
   text-align: center;
-  font-family: "Comic Neue", cursive;
-  font-size: 2em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.3em;
+  color: rgb(52, 0, 173);
+}
+
+.contenedor_rifas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: rgb(52, 0, 173);
+}
+
+.card-text {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 }
 
 .principal {
@@ -107,47 +162,13 @@ header {
   text-align: center;
 }
 
-.rifas {
-  margin-top: 50px;
-  margin-left: 300px;
-}
-
-.card-title {
-  text-align: center;
-  font-size: 1.5em;
-  color: rgb(52, 0, 173);
-}
-
-.card-text {
-  margin-top: 15px;
-  text-align: center;
-}
-
 .principal__titulo--xl {
-  margin-top: 20px;
+  margin-top: 35px;
   margin-bottom: 30px;
-  color: black;
   text-align: center;
-  font-size: 2em;
-  font-family: "Comic Neue", cursive;
-}
-
-.textRight {
-  text-align: right;
-}
-
-#preguntas_contenedor {
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: rgba(0, 20, 84, 0.886);
-}
-
-.titulo_preguntas {
-  font-family: "Comic Neue", cursive;
-  font-size: 2em;
-  margin-bottom: 10px;
-  background-color: white;
+  font-size: 2.3em;
+  font-family: "Inter Tight", sans-serif;
+  color: rgb(52, 0, 173);
 }
 
 .pasos_contenedor {
@@ -155,29 +176,63 @@ header {
   margin-right: 60px;
 }
 
-.pasos_contenedor-dos {
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 50px;
+.pasos_borde {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.pasos_img {
-  width: 210px;
-  margin-bottom: 30px;
+.texto_participar {
+  font-size: 1.2em;
+  font-family: "Inter Tight", sans-serif;
+  margin-bottom: 50px;
+}
+
+#preguntas_contenedor {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: white;
+}
+
+.titulo_preguntas {
+  color: rgb(52, 0, 173);
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.3em;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.2em;
 }
 
 .destacadas {
   margin-left: 60px;
   margin-right: 60px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .destacadas__titulo--xl {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
-  color: black;
+  padding: 10px;
+  color: rgb(52, 0, 173);
   text-align: center;
-  font-size: 2em;
-  font-family: "Comic Neue", cursive;
+  font-size: 2.3em;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.destacadas_descr {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+.img_empresa {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 28px 0 rgba(0, 0, 0, 0.19);
 }
 
 .destacados__nosotros--md {
@@ -193,8 +248,8 @@ header {
 }
 
 .titulo-formulario {
-  font-family: "Comic Neue", cursive;
-  font-size: 2em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.3em;
 }
 
 .boton-formulario {
@@ -208,7 +263,19 @@ header {
   margin-bottom: 30px;
 }
 
+.img_error {
+  background-color: #36cdff;
+}
+
+@media (max-width: 992px) {
+  .img_error img {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+  }
+}
 .pie {
+  background-image: linear-gradient(to top, #6710f2, rgb(147, 18, 198));
   background-color: #6710f2;
   margin-top: auto;
   text-align: center;
