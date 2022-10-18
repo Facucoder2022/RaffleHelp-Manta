@@ -62,6 +62,12 @@
   object-fit: scale-down
  }
 
+ @media (max-width: 768px) {
+  .ong_fotos {
+    width: 200px;    
+  }
+}
+
  .comentarios_contenedor{
    margin-top: 20px;
    margin-bottom: 25px;
@@ -75,6 +81,12 @@
  .img_comentarios{
   margin-bottom: 30px;
  }
+
+ @media (max-width: 768px) {
+  .img_comentarios {
+    width: 200px;    
+  }
+}
 
  .titulo_novedades{
    margin-top: 20px;
@@ -187,6 +199,12 @@
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 28px 0 rgba(0, 0, 0, 0.19);
  }
 
+ @media (max-width: 768px) {
+  .img_empresa {
+    width: 200px;    
+  }
+}
+
  .destacados__nosotros--md{
     text-align: center;
     font-size: xx-large;
@@ -214,6 +232,12 @@
  .col iframe{
    margin-bottom: 30px;
  }
+
+ @media (max-width: 768px) {
+  .col iframe {
+    width: 300px;    
+  }
+}
 
  .img_error{
   background-color: #36cdff;
